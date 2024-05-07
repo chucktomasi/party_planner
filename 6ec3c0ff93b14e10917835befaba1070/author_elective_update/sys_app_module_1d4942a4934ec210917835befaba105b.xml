@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Contact types</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1109064_party_contact_type</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1109064_party.contact_type_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-05 13:49:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d4942a4934ec210917835befaba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact types</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_app_module_1d4942a4934ec210917835befaba105b</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-05 13:49:58</sys_updated_on>
+        <timeline_page/>
+        <title>Contact types</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_app_module_1d4942a4934ec210917835befaba105b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Contact types</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1109064_party_contact_type</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1109064_party.contact_type_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-05 13:49:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1d4942a4934ec210917835befaba105b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Contact types</sys_name><sys_overrides/><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_app_module_1d4942a4934ec210917835befaba105b</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-05 13:49:58</sys_updated_on><timeline_page/><title>Contact types</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-360146889</payload_hash>
+        <record_name>Contact types</record_name>
+        <reverted_from/>
+        <source>22c3c0ff93b14e10917835befaba1075</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-05 13:50:15</sys_created_on>
+        <sys_id>2959c2a4934ec210917835befaba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f490500ba0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-05 13:50:15</sys_updated_on>
+        <type>Module</type>
+        <update_guid>954942a42f4ec210aaa1cd3a60e99b5d</update_guid>
+        <update_guid_history>954942a42f4ec210aaa1cd3a60e99b5d:1975274553,954942a42f4ec210aaa1cd3a60e99b5d:1975274553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Contact types">d76902a4934ec210917835befaba10d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-05 13:50:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3d7d18db61304d18bc75d53b33929e10</sys_id>
+        <sys_metadata>1d4942a4934ec210917835befaba105b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact types</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_app_module_1d4942a4934ec210917835befaba105b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_1d4942a4934ec210917835befaba105b">2959c2a4934ec210917835befaba10f5</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-05 13:50:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

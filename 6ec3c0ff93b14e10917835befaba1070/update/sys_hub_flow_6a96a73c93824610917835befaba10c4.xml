@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3574000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Go through the attendee records for an event and sum the expected number of people.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>sum_event_rsvps</internal_name>
+        <label_cache>[{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"ae729a69-b584-497c-afee-6e41ff34150f":["condition"]},"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"672ab9c3-c2d8-46a9-b946-e269aeb1c17e.Records","label":"4 - Look Up Records➛Attendee Records","reference":"x_1109064_party_m2m_attendee","reference_display":"Attendee","type":"records","base_type":"records","usedInstances":{"355ad4ec-a653-4e72-bb8a-6f258e5856c6":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record.sys_id","label":"2 - Look Up Record➛Event Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1109064_party_event","column_name":"sys_id","usedInstances":{"672ab9c3-c2d8-46a9-b946-e269aeb1c17e":["conditions"]}},{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record","label":"2 - Look Up Record➛Event Record","reference":"x_1109064_party_event","reference_display":"Event","type":"reference","base_type":"reference","usedInstances":{"f7f793d3-9944-45e6-a69c-a41125a489d2":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.total_rsvps","label":"Flow Variables➛Total RSVPs","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"f7f793d3-9944-45e6-a69c-a41125a489d2":["rsvps"],"61be5ee1-1126-4861-adc6-ed0c1642b8de":["event_rsvp_count-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0fcefcfe-b9e1-41ce-9176-25c46fb8cb03"}}]</label_cache>
+        <master_snapshot>ef3433b0934a4610917835befaba10d4</master_snapshot>
+        <name>Sum Event RSVPs</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:16:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a96a73c93824610917835befaba10c4</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Sum Event RSVPs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_hub_flow_6a96a73c93824610917835befaba10c4</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:50</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a96a73c93824610917835befaba10c4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6a96a73c93824610917835befaba10c4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4^id=6a96a73c93824610917835befaba10c4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6a96a73c93824610917835befaba10c4^sys_idNOT IN2296a73c93824610917835befaba10c7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6a96a73c93824610917835befaba10c4</id>
+        <name>Sum Event RSVPs</name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:16:13</sys_created_on>
+        <sys_id>2296a73c93824610917835befaba10c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:16:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2296a73c93824610917835befaba10c7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6a96a73c93824610917835befaba10c4^sys_idNOT INac3eeb78930a4610917835befaba1081"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ac74f77e-6834-4e99-8c60-6ff7b704e0e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1109064_party_m2m_attendee</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attendee_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Attendee Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</model>
+        <model_id>6a96a73c93824610917835befaba10c4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6a96a73c93824610917835befaba10c4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1109064_party_m2m_attendee">x_1109064_party_m2m_attendee</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:24</sys_created_on>
+        <sys_id>ac3eeb78930a4610917835befaba1081</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:01:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ac3eeb78930a4610917835befaba1081"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6a96a73c93824610917835befaba10c4^sys_idNOT IN2c3e6f78930a4610917835befaba109b"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=5ceccccc-deba-42b8-bfae-a783fa366771</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_rsvp_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Event RSVP Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</model>
+        <model_id>6a96a73c93824610917835befaba10c4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:24</sys_created_on>
+        <sys_id>2c3e6f78930a4610917835befaba109b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c3e6f78930a4610917835befaba109b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a96a73c93824610917835befaba10c4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4^sys_idNOT INbc40bb3c930a4610917835befaba105b,c41eab78930a4610917835befaba103c,dfdeebb8930a4610917835befaba10c5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>ae729a69-b584-497c-afee-6e41ff34150f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:58:25</sys_created_on>
+        <sys_id>bc40bb3c930a4610917835befaba105b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:43:40</sys_updated_on>
+        <ui_id>f7f793d3-9944-45e6-a69c-a41125a489d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bc40bb3c930a4610917835befaba105b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bc40bb3c930a4610917835befaba105b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:58:53</sys_created_on>
+        <sys_id>e750bb3c930a4610917835befaba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:58:53</sys_updated_on>
+        <value>x_1109064_party_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bc40bb3c930a4610917835befaba105b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bc40bb3c930a4610917835befaba105b</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:58:53</sys_created_on>
+        <sys_id>6750bb3c930a4610917835befaba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:58:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bc40bb3c930a4610917835befaba105b</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:58:53</sys_created_on>
+        <sys_id>ef50bb3c930a4610917835befaba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:58:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>bc40bb3c930a4610917835befaba105b</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:58:53</sys_created_on>
+        <sys_id>a350bb3c930a4610917835befaba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:58:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>rsvps={{flow_variable.total_rsvps}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bc40bb3c930a4610917835befaba105b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bc40bb3c930a4610917835befaba105b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Get the parent event</comment>
+        <display_text/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:48:48</sys_created_on>
+        <sys_id>c41eab78930a4610917835befaba103c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:43:40</sys_updated_on>
+        <ui_id>ff8f7fe2-3b29-4062-963b-54a7baa92e9d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c41eab78930a4610917835befaba103c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c41eab78930a4610917835befaba103c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:24</sys_created_on>
+        <sys_id>203eeb78930a4610917835befaba1096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:49:24</sys_updated_on>
+        <value>x_1109064_party_event</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=c41eab78930a4610917835befaba103c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c41eab78930a4610917835befaba103c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c41eab78930a4610917835befaba103c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>ae729a69-b584-497c-afee-6e41ff34150f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:52:19</sys_created_on>
+        <sys_id>dfdeebb8930a4610917835befaba10c5</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:43:40</sys_updated_on>
+        <ui_id>672ab9c3-c2d8-46a9-b946-e269aeb1c17e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dfdeebb8930a4610917835befaba10c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dfdeebb8930a4610917835befaba10c5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:53:18</sys_created_on>
+        <sys_id>711feb78930a4610917835befaba109c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:53:18</sys_updated_on>
+        <value>x_1109064_party_m2m_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dfdeebb8930a4610917835befaba10c5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:53:18</sys_created_on>
+        <sys_id>bd1feb78930a4610917835befaba109b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:55:38</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dfdeebb8930a4610917835befaba10c5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>dfdeebb8930a4610917835befaba10c5</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:53:18</sys_created_on>
+        <sys_id>791feb78930a4610917835befaba109b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:55:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>rsvp=yes^x_1109064_party_event.sys_id={{ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>dfdeebb8930a4610917835befaba10c5</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:53:18</sys_created_on>
+        <sys_id>3d1feb78930a4610917835befaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:53:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dfdeebb8930a4610917835befaba10c5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dfdeebb8930a4610917835befaba10c5"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4^sys_idNOT IN17af6bf8930a4610917835befaba109f,2e4e2ffc93c64610917835befaba1036,a25ee7b0930a4610917835befaba1047,c42f63b0930a4610917835befaba109a,dbd0ff3c930a4610917835befaba10c3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">433433b0934a4610917835befaba1068</block>
+        <comment>Roll up counter</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <flow_variable/>
+        <flow_variables_assigned>total_rsvps</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>355ad4ec-a653-4e72-bb8a-6f258e5856c6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:55:52</sys_created_on>
+        <sys_id>17af6bf8930a4610917835befaba109f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:50</sys_updated_on>
+        <ui_id>58a10453-b427-49a9-a8d4-fca24b6ff721</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=17af6bf8930a4610917835befaba109f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>17af6bf8930a4610917835befaba109f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:57:58</sys_created_on>
+        <sys_id>4e203ff8930a4610917835befaba104e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:57:58</sys_updated_on>
+        <value/>
+        <variable display_value="Total RSVPs">f84eeb78930a4610917835befaba106a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a96a73c93824610917835befaba10c4^id=17af6bf8930a4610917835befaba109f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4^id=17af6bf8930a4610917835befaba109f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=17af6bf8930a4610917835befaba109f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17af6bf8930a4610917835befaba109f^sys_idNOT INca203ff8930a4610917835befaba104c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>total_rsvps</input_name>
+        <instance>17af6bf8930a4610917835befaba109f</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"total_rsvps":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar output \u003d parseInt(fd_data.flow_var.total_rsvps) + parseInt(fd_data._5__for_each.item.number_in_party);\n\nreturn output;"}}</script>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:57:58</sys_created_on>
+        <sys_id>ca203ff8930a4610917835befaba104c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:57:58</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">433433b0934a4610917835befaba1055</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <flow_variable/>
+        <flow_variables_assigned>total_rsvps</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:48</sys_created_on>
+        <sys_id>2e4e2ffc93c64610917835befaba1036</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:50</sys_updated_on>
+        <ui_id>22d6cd0f-e58f-414d-9e43-c4aad5ba526d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2e4e2ffc93c64610917835befaba1036"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2e4e2ffc93c64610917835befaba1036</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:55</sys_created_on>
+        <sys_id>805e6b78930a4610917835befaba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:49:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Total RSVPs">f84eeb78930a4610917835befaba106a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a96a73c93824610917835befaba10c4^id=2e4e2ffc93c64610917835befaba1036"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4^id=2e4e2ffc93c64610917835befaba1036"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2e4e2ffc93c64610917835befaba1036"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2e4e2ffc93c64610917835befaba1036"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">033433b0934a4610917835befaba105c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:50:05</sys_created_on>
+        <sys_id>a25ee7b0930a4610917835befaba1047</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:50</sys_updated_on>
+        <ui_id>ae729a69-b584-497c-afee-6e41ff34150f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a25ee7b0930a4610917835befaba1047"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a96a73c93824610917835befaba10c4^id=a25ee7b0930a4610917835befaba1047"/>
+    <sys_element_mapping action="delete_multiple" query="id=a25ee7b0930a4610917835befaba1047"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a25ee7b0930a4610917835befaba1047</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:50:15</sys_created_on>
+        <sys_id>9d6ea3b8930a4610917835befaba1018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:50:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{ff8f7fe2-3b29-4062-963b-54a7baa92e9d.status}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4^id=a25ee7b0930a4610917835befaba1047"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a25ee7b0930a4610917835befaba1047"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a25ee7b0930a4610917835befaba1047"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4f3433b0934a4610917835befaba1062</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ae729a69-b584-497c-afee-6e41ff34150f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:53:27</sys_created_on>
+        <sys_id>c42f63b0930a4610917835befaba109a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:50</sys_updated_on>
+        <ui_id>355ad4ec-a653-4e72-bb8a-6f258e5856c6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c42f63b0930a4610917835befaba109a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a96a73c93824610917835befaba10c4^id=c42f63b0930a4610917835befaba109a"/>
+    <sys_element_mapping action="delete_multiple" query="id=c42f63b0930a4610917835befaba109a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>c42f63b0930a4610917835befaba109a</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:53:38</sys_created_on>
+        <sys_id>b62fe7b0930a4610917835befaba10a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:53:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{672ab9c3-c2d8-46a9-b946-e269aeb1c17e.Records}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4^id=c42f63b0930a4610917835befaba109a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c42f63b0930a4610917835befaba109a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c42f63b0930a4610917835befaba109a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4b3433b0934a4610917835befaba106e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned>event_rsvp_count</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:01:03</sys_created_on>
+        <sys_id>dbd0ff3c930a4610917835befaba10c3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:50</sys_updated_on>
+        <ui_id>61be5ee1-1126-4861-adc6-ed0c1642b8de</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dbd0ff3c930a4610917835befaba10c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>dbd0ff3c930a4610917835befaba10c3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:01:44</sys_created_on>
+        <sys_id>1d017f7c930a4610917835befaba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:01:44</sys_updated_on>
+        <value/>
+        <variable display_value="Event RSVP Count">2c3e6f78930a4610917835befaba109b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6a96a73c93824610917835befaba10c4^id=dbd0ff3c930a4610917835befaba10c3"/>
+    <sys_element_mapping action="delete_multiple" query="id=dbd0ff3c930a4610917835befaba10c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>event_rsvp_count</field>
+        <id>dbd0ff3c930a4610917835befaba10c3</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:01:44</sys_created_on>
+        <sys_id>99017f7c930a4610917835befaba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:01:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4</table>
+        <value>{{flow_variable.total_rsvps}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dbd0ff3c930a4610917835befaba10c3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbd0ff3c930a4610917835befaba10c3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6a96a73c93824610917835befaba10c4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6a96a73c93824610917835befaba10c4^sys_idNOT INf84eeb78930a4610917835befaba106a"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=0fcefcfe-b9e1-41ce-9176-25c46fb8cb03</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_rsvps</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total RSVPs</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</model>
+        <model_id>6a96a73c93824610917835befaba10c4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_6a96a73c93824610917835befaba10c4</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:41</sys_created_on>
+        <sys_id>f84eeb78930a4610917835befaba106a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:00:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6a96a73c93824610917835befaba10c4^sys_idNOT IN683e6f78930a4610917835befaba1092"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attendee_record</element>
+        <help/>
+        <hint/>
+        <label>Attendee Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6a96a73c93824610917835befaba10c4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:24</sys_created_on>
+        <sys_id>683e6f78930a4610917835befaba1092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 15:49:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6a96a73c93824610917835befaba10c4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4^sys_idNOT INa03e6f78930a4610917835befaba10ab"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_rsvp_count</element>
+        <help/>
+        <hint/>
+        <label>Event RSVP Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 15:49:24</sys_created_on>
+        <sys_id>a03e6f78930a4610917835befaba10ab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:01:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Go through the attendee records for an event and sum the expected number of people.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>sum_event_rsvps</internal_name>
+        <label_cache>[{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"ae729a69-b584-497c-afee-6e41ff34150f":["condition"]},"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"672ab9c3-c2d8-46a9-b946-e269aeb1c17e.Records","label":"4 - Look Up Records➛Attendee Records","reference":"x_1109064_party_m2m_attendee","reference_display":"Attendee","type":"records","base_type":"records","usedInstances":{"355ad4ec-a653-4e72-bb8a-6f258e5856c6":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record.sys_id","label":"2 - Look Up Record➛Event Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1109064_party_event","column_name":"sys_id","usedInstances":{"672ab9c3-c2d8-46a9-b946-e269aeb1c17e":["conditions"]}},{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record","label":"2 - Look Up Record➛Event Record","reference":"x_1109064_party_event","reference_display":"Event","type":"reference","base_type":"reference","usedInstances":{"f7f793d3-9944-45e6-a69c-a41125a489d2":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.total_rsvps","label":"Flow Variables➛Total RSVPs","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"f7f793d3-9944-45e6-a69c-a41125a489d2":["rsvps"],"61be5ee1-1126-4861-adc6-ed0c1642b8de":["event_rsvp_count-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0fcefcfe-b9e1-41ce-9176-25c46fb8cb03"}}]</label_cache>
+        <master>true</master>
+        <name>Sum Event RSVPs</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef3433b0934a4610917835befaba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:48</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef3433b0934a4610917835befaba10d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ef3433b0934a4610917835befaba10d4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4^id=ef3433b0934a4610917835befaba10d4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ef3433b0934a4610917835befaba10d4^sys_idNOT IN2b3433b0934a4610917835befaba10d5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ef3433b0934a4610917835befaba10d4</id>
+        <name>Sum Event RSVPs</name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:48</sys_created_on>
+        <sys_id>2b3433b0934a4610917835befaba10d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2b3433b0934a4610917835befaba10d5"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ef3433b0934a4610917835befaba10d4^sys_idNOT IN6b3433b0934a4610917835befaba10d6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ac74f77e-6834-4e99-8c60-6ff7b704e0e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1109064_party_m2m_attendee</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attendee_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Attendee Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</model>
+        <model_id>ef3433b0934a4610917835befaba10d4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_ef3433b0934a4610917835befaba10d4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1109064_party_m2m_attendee">x_1109064_party_m2m_attendee</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:48</sys_created_on>
+        <sys_id>6b3433b0934a4610917835befaba10d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6b3433b0934a4610917835befaba10d6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ef3433b0934a4610917835befaba10d4^sys_idNOT INeb3473b0934a4610917835befaba1002"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=5ceccccc-deba-42b8-bfae-a783fa366771</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_rsvp_count</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Event RSVP Count</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</model>
+        <model_id>ef3433b0934a4610917835befaba10d4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>eb3473b0934a4610917835befaba1002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb3473b0934a4610917835befaba1002"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ef3433b0934a4610917835befaba10d4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4^sys_idNOT IN233473b0934a4610917835befaba102c,a33473b0934a4610917835befaba1035,b73473b0934a4610917835befaba103c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Get the parent event</comment>
+        <display_text/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>233473b0934a4610917835befaba102c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>ff8f7fe2-3b29-4062-963b-54a7baa92e9d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=233473b0934a4610917835befaba102c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>233473b0934a4610917835befaba102c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>6f3473b0934a4610917835befaba102d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <value>x_1109064_party_event</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3^id=233473b0934a4610917835befaba102c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=233473b0934a4610917835befaba102c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=233473b0934a4610917835befaba102c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>ae729a69-b584-497c-afee-6e41ff34150f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>a33473b0934a4610917835befaba1035</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>672ab9c3-c2d8-46a9-b946-e269aeb1c17e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a33473b0934a4610917835befaba1035"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a33473b0934a4610917835befaba1035</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>233473b0934a4610917835befaba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <value>x_1109064_party_m2m_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a33473b0934a4610917835befaba1035"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a33473b0934a4610917835befaba1035</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>eb3473b0934a4610917835befaba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>rsvp=yes^x_1109064_party_event.sys_id={{ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a33473b0934a4610917835befaba1035</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>af3473b0934a4610917835befaba1036</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a33473b0934a4610917835befaba1035"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a33473b0934a4610917835befaba1035"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>ae729a69-b584-497c-afee-6e41ff34150f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>b73473b0934a4610917835befaba103c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>f7f793d3-9944-45e6-a69c-a41125a489d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b73473b0934a4610917835befaba103c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b73473b0934a4610917835befaba103c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>ff3473b0934a4610917835befaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <value>x_1109064_party_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b73473b0934a4610917835befaba103c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b73473b0934a4610917835befaba103c</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>7f3473b0934a4610917835befaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b73473b0934a4610917835befaba103c</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>f73473b0934a4610917835befaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b73473b0934a4610917835befaba103c</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>bb3473b0934a4610917835befaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>rsvps={{flow_variable.total_rsvps}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b73473b0934a4610917835befaba103c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b73473b0934a4610917835befaba103c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4^sys_idNOT IN673473b0934a4610917835befaba1020,ab3473b0934a4610917835befaba1012,ab3473b0934a4610917835befaba1016,ab3473b0934a4610917835befaba1019,af3473b0934a4610917835befaba101c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4b3433b0934a4610917835befaba106e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned>event_rsvp_count</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>673473b0934a4610917835befaba1020</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>61be5ee1-1126-4861-adc6-ed0c1642b8de</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=673473b0934a4610917835befaba1020"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>673473b0934a4610917835befaba1020</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>673473b0934a4610917835befaba1023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <value/>
+        <variable display_value="Event RSVP Count">eb3473b0934a4610917835befaba1002</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ef3433b0934a4610917835befaba10d4^id=673473b0934a4610917835befaba1020"/>
+    <sys_element_mapping action="delete_multiple" query="id=673473b0934a4610917835befaba1020"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>event_rsvp_count</field>
+        <id>673473b0934a4610917835befaba1020</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>e33473b0934a4610917835befaba1023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4</table>
+        <value>{{flow_variable.total_rsvps}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=673473b0934a4610917835befaba1020"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=673473b0934a4610917835befaba1020"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">433433b0934a4610917835befaba1055</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned>total_rsvps</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>ab3473b0934a4610917835befaba1012</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>22d6cd0f-e58f-414d-9e43-c4aad5ba526d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ab3473b0934a4610917835befaba1012"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ab3473b0934a4610917835befaba1012</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>233473b0934a4610917835befaba1016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Total RSVPs">ef3473b0934a4610917835befaba100d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ef3433b0934a4610917835befaba10d4^id=ab3473b0934a4610917835befaba1012"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4^id=ab3473b0934a4610917835befaba1012"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ab3473b0934a4610917835befaba1012"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab3473b0934a4610917835befaba1012"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">033433b0934a4610917835befaba105c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>ab3473b0934a4610917835befaba1016</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>ae729a69-b584-497c-afee-6e41ff34150f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ab3473b0934a4610917835befaba1016"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ef3433b0934a4610917835befaba10d4^id=ab3473b0934a4610917835befaba1016"/>
+    <sys_element_mapping action="delete_multiple" query="id=ab3473b0934a4610917835befaba1016"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ab3473b0934a4610917835befaba1016</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>e33473b0934a4610917835befaba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{ff8f7fe2-3b29-4062-963b-54a7baa92e9d.status}}=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4^id=ab3473b0934a4610917835befaba1016"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ab3473b0934a4610917835befaba1016"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab3473b0934a4610917835befaba1016"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4f3433b0934a4610917835befaba1062</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ae729a69-b584-497c-afee-6e41ff34150f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>ab3473b0934a4610917835befaba1019</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>355ad4ec-a653-4e72-bb8a-6f258e5856c6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ab3473b0934a4610917835befaba1019"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ef3433b0934a4610917835befaba10d4^id=ab3473b0934a4610917835befaba1019"/>
+    <sys_element_mapping action="delete_multiple" query="id=ab3473b0934a4610917835befaba1019"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ab3473b0934a4610917835befaba1019</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>673473b0934a4610917835befaba101c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{672ab9c3-c2d8-46a9-b946-e269aeb1c17e.Records}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4^id=ab3473b0934a4610917835befaba1019"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ab3473b0934a4610917835befaba1019"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab3473b0934a4610917835befaba1019"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">433433b0934a4610917835befaba1068</block>
+        <comment>Roll up counter</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned>total_rsvps</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>355ad4ec-a653-4e72-bb8a-6f258e5856c6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>af3473b0934a4610917835befaba101c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <ui_id>58a10453-b427-49a9-a8d4-fca24b6ff721</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=af3473b0934a4610917835befaba101c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>af3473b0934a4610917835befaba101c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>6f3473b0934a4610917835befaba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <value/>
+        <variable display_value="Total RSVPs">ef3473b0934a4610917835befaba100d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_ef3433b0934a4610917835befaba10d4^id=af3473b0934a4610917835befaba101c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4^id=af3473b0934a4610917835befaba101c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=af3473b0934a4610917835befaba101c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=af3473b0934a4610917835befaba101c^sys_idNOT INaf3473b0934a4610917835befaba101d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>total_rsvps</input_name>
+        <instance>af3473b0934a4610917835befaba101c</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"total_rsvps":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar output \u003d parseInt(fd_data.flow_var.total_rsvps) + parseInt(fd_data._5__for_each.item.number_in_party);\n\nreturn output;"}}</script>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>af3473b0934a4610917835befaba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ef3433b0934a4610917835befaba10d4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ef3433b0934a4610917835befaba10d4^sys_idNOT INef3473b0934a4610917835befaba100d"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=0fcefcfe-b9e1-41ce-9176-25c46fb8cb03</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_rsvps</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total RSVPs</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sum Event RSVPs">ef3433b0934a4610917835befaba10d4</model>
+        <model_id>ef3433b0934a4610917835befaba10d4</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_ef3433b0934a4610917835befaba10d4</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>ef3473b0934a4610917835befaba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ef3433b0934a4610917835befaba10d4^sys_idNOT INe33433b0934a4610917835befaba10fe"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attendee_record</element>
+        <help/>
+        <hint/>
+        <label>Attendee Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ef3433b0934a4610917835befaba10d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>e33433b0934a4610917835befaba10fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ef3433b0934a4610917835befaba10d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4^sys_idNOT INa33473b0934a4610917835befaba1007"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_rsvp_count</element>
+        <help/>
+        <hint/>
+        <label>Event RSVP Count</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:49</sys_created_on>
+        <sys_id>a33473b0934a4610917835befaba1007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>6a96a73c93824610917835befaba10c4</sys_id>
+        <latest_snapshot>ef3433b0934a4610917835befaba10d4</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch1-02-28-2024_03-09-2024_0815.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6a96a73c93824610917835befaba10c4"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6a96a73c93824610917835befaba10c4^sys_idNOT IN373473b0934a4610917835befaba105e"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"373473b0934a4610917835befaba105e","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</plan_id>
+        <snapshot>6b9a33b8934a4610917835befaba1085</snapshot>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-06 16:15:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>373473b0934a4610917835befaba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-06 16:15:50</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

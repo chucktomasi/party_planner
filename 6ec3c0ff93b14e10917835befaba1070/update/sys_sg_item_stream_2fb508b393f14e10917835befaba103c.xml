@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Party Planner Event">9bb5c0b393f14e10917835befaba10f2</data_item>
+        <interleaved_field/>
+        <name>Event Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>2fb508b393f14e10917835befaba103c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Item Stream</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_item_stream_2fb508b393f14e10917835befaba103c</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

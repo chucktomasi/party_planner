@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>rsvp</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-05 14:36:25</sys_created_on>
+        <sys_id>f9e3de24938ec210917835befaba10f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rsvp</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f9e3de24938ec210917835befaba10f9</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-05 14:36:25</sys_updated_on>
+        <table>x_1109064_party_m2m_attendee</table>
+        <ui_policy display_value="Show RSVP after invite sent">f9e3de24938ec210917835befaba10ea</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=f9e3de24938ec210917835befaba10f9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_ui_policy_action_f9e3de24938ec210917835befaba10f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>rsvp</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-05 14:36:25</sys_created_on><sys_id>f9e3de24938ec210917835befaba10f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rsvp</sys_name><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_ui_policy_action_f9e3de24938ec210917835befaba10f9</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-05 14:36:25</sys_updated_on><table>x_1109064_party_m2m_attendee</table><ui_policy display_value="Show RSVP after invite sent">f9e3de24938ec210917835befaba10ea</ui_policy><value/><value_action>ignore</value_action><visible>false</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=f9e3de24938ec210917835befaba10f9"/></record_update>]]></payload>
+        <payload_hash>-1680200491</payload_hash>
+        <record_name>rsvp</record_name>
+        <reverted_from/>
+        <source>22c3c0ff93b14e10917835befaba1075</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-05 14:36:25</sys_created_on>
+        <sys_id>71e3de24938ec210917835befaba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f492f453a0000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-05 14:36:25</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>75e3de24c48ec210ec37f5dbdd1683fb</update_guid>
+        <update_guid_history>75e3de24c48ec210ec37f5dbdd1683fb:-1680200491</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-05 14:36:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4cf6d0fb6df1435ea01528b41e05c3d9</sys_id>
+        <sys_metadata>f9e3de24938ec210917835befaba10f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rsvp</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f9e3de24938ec210917835befaba10f9</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f9e3de24938ec210917835befaba10f9">71e3de24938ec210917835befaba10fc</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-05 14:36:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
