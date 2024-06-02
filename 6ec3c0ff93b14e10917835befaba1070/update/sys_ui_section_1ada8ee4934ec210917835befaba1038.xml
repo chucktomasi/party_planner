@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>7e5e181d93ce8610917835befaba10dd</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>4bafcbed9366c210917835befaba1064</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>3a5e181d93ce8610917835befaba10de</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>cfafcbed9366c210917835befaba1064</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>start</element>
             <position>2</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>be5e181d93ce8610917835befaba10de</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>47afcbed9366c210917835befaba1065</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>end</element>
             <position>3</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>365e181d93ce8610917835befaba10df</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>cbafcbed9366c210917835befaba1065</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>ba5e181d93ce8610917835befaba10df</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>43afcbed9366c210917835befaba1066</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>state</element>
             <position>5</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>325e181d93ce8610917835befaba10e0</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>c7afcbed9366c210917835befaba1066</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>rsvps</element>
             <position>6</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>b65e181d93ce8610917835befaba10e0</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>4fafcbed9366c210917835befaba1066</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>attendees</element>
             <position>7</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>3e5e181d93ce8610917835befaba10e0</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>c3afcbed9366c210917835befaba1067</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,72 +116,101 @@
             <element>kid_friendly</element>
             <position>8</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>b25e181d93ce8610917835befaba10e1</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>4bafcbed9366c210917835befaba1067</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>c7cd432d9366c210917835befaba10b7</element>
             <position>9</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>3a5e181d93ce8610917835befaba10e1</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>cfafcbed9366c210917835befaba1067</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
+            <sys_user/>
+            <type>chart</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>47afcbed9366c210917835befaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>be5e181d93ce8610917835befaba10e1</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>cbafcbed9366c210917835befaba1068</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>notes</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>365e181d93ce8610917835befaba10e2</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>43afcbed9366c210917835befaba1069</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:58:18</sys_created_on>
-            <sys_id>ba5e181d93ce8610917835befaba10e2</sys_id>
+            <sys_created_on>2024-06-02 18:02:52</sys_created_on>
+            <sys_id>c7afcbed9366c210917835befaba1069</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:58:18</sys_updated_on>
+            <sys_updated_on>2024-06-02 18:02:52</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
+        <sys_ui_chart action="INSERT_OR_UPDATE">
+            <form_field>rsvps</form_field>
+            <height>300</height>
+            <label>Attendees report</label>
+            <report display_value="Attendees">ee5ec76d9366c210917835befaba1022</report>
+            <report_field/>
+            <report_qual>javascript:'event='+current.sys_id</report_qual>
+            <section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</section>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-06-02 17:54:40</sys_created_on>
+            <sys_id>c7cd432d9366c210917835befaba10b7</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-06-02 18:11:35</sys_updated_on>
+        </sys_ui_chart>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

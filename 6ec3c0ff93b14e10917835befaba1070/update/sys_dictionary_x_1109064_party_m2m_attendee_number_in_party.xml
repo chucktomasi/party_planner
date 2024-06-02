@@ -16,7 +16,7 @@
         <column_label>Number in party</column_label>
         <comments/>
         <create_roles/>
-        <default_value>0</default_value>
+        <default_value>1</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
         <sys_update_name>sys_dictionary_x_1109064_party_m2m_attendee_number_in_party</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-05-05 13:54:40</sys_updated_on>
+        <sys_updated_on>2024-05-15 17:29:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

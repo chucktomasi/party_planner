@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="4bf70624934ec210917835befaba105a" label="Person" max_length="40" name="x_1109064_party_person" type="collection">
         <element label="Best contact" max_length="4000" name="best_contact" reference="x_1109064_party_contact_type" reference_qual="active=true" reference_qual_condition="active=true" type="glide_list"/>
-        <element label="City" max_length="40" name="city" type="string"/>
-        <element label="Facebook" max_length="1024" name="facebook" type="url"/>
-        <element label="Family/group lead" max_length="255" name="family_group_lead" type="boolean"/>
-        <element label="LinkedIn" max_length="1024" name="linkedin" type="url"/>
-        <element label="Members" max_length="1024" name="members" reference="x_1109064_party_person" type="glide_list"/>
-        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Work email" max_length="40" name="work_email" type="string"/>
         <element label="Notes" max_length="255" name="notes" type="journal_input"/>
-        <element label="Personal email" max_length="40" name="personal_email" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element label="City" max_length="40" name="city" type="string"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element label="Street" max_length="40" name="street" type="string"/>
-        <element label="Work email" max_length="40" name="work_email" type="string"/>
         <element label="Zip" max_length="40" name="zip" type="string"/>
+        <element label="Family/group lead" max_length="255" name="family_group_lead" type="boolean"/>
+        <element label="LinkedIn" max_length="1024" name="linkedin" type="url"/>
+        <element label="Facebook" max_length="1024" name="facebook" type="url"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Personal email" max_length="40" name="personal_email" type="string"/>
+        <element label="Members" max_length="1024" name="members" reference="x_1109064_party_person" type="glide_list"/>
     </element>
 </database>

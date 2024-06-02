@@ -3,92 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>rsvp</element>
-            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">5b2d589993ce8610917835befaba107d</list_id>
+            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">638a1e3f93864a10917835befaba100e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:53:08</sys_created_on>
-            <sys_id>df2d589993ce8610917835befaba107e</sys_id>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
+            <sys_id>6b8a5a3393c64a10917835befaba1090</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:53:08</sys_updated_on>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>x_1109064_party_person</element>
-            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">5b2d589993ce8610917835befaba107d</list_id>
+            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">638a1e3f93864a10917835befaba100e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:53:08</sys_created_on>
-            <sys_id>972d589993ce8610917835befaba107f</sys_id>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
+            <sys_id>eb8a5a3393c64a10917835befaba1090</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:53:08</sys_updated_on>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number_in_party</element>
-            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">5b2d589993ce8610917835befaba107d</list_id>
+            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">638a1e3f93864a10917835befaba100e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:53:08</sys_created_on>
-            <sys_id>1b2d589993ce8610917835befaba107f</sys_id>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
+            <sys_id>6f8a5a3393c64a10917835befaba1090</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:53:08</sys_updated_on>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>x_1109064_party_event</element>
-            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">5b2d589993ce8610917835befaba107d</list_id>
+            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">638a1e3f93864a10917835befaba100e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:53:08</sys_created_on>
-            <sys_id>9b2d589993ce8610917835befaba107f</sys_id>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
+            <sys_id>ef8a5a3393c64a10917835befaba1090</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:53:08</sys_updated_on>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>invite_sent</element>
-            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">5b2d589993ce8610917835befaba107d</list_id>
+            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">638a1e3f93864a10917835befaba100e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:53:08</sys_created_on>
-            <sys_id>1f2d589993ce8610917835befaba107f</sys_id>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
+            <sys_id>638a5a3393c64a10917835befaba1091</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:53:08</sys_updated_on>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>x_1109064_party_person.best_contact</element>
-            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">5b2d589993ce8610917835befaba107d</list_id>
+            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">638a1e3f93864a10917835befaba100e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:53:08</sys_created_on>
-            <sys_id>9f2d589993ce8610917835befaba107f</sys_id>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
+            <sys_id>e38a5a3393c64a10917835befaba1091</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:53:08</sys_updated_on>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>attended</element>
+            <list_id display_value="x_1109064_party_m2m_attendee" element="NULL" name="x_1109064_party_m2m_attendee" parent="x_1109064_party_event" relationship="NULL" sys_domain="global" view="Default view">638a1e3f93864a10917835befaba100e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
+            <sys_id>678a5a3393c64a10917835befaba1091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-05-07 13:53:08</sys_created_on>
+            <sys_created_on>2024-05-15 17:25:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5b2d589993ce8610917835befaba107d</sys_id>
+            <sys_id>638a1e3f93864a10917835befaba100e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1109064_party_m2m_attendee</sys_name>
             <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
@@ -113,7 +128,7 @@
             <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
             <sys_update_name>sys_ui_list_x_1109064_party_m2m_attendee_x_1109064_party_event_null</sys_update_name>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-05-07 13:53:08</sys_updated_on>
+            <sys_updated_on>2024-05-15 17:25:44</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
