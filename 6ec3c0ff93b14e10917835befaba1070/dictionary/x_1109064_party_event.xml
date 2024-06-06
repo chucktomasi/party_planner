@@ -12,7 +12,7 @@
         <element default="0" label="RSVPs" max_length="40" name="rsvps" type="integer"/>
         <element label="Kid friendly" max_length="40" name="kid_friendly" type="boolean"/>
         <element label="Attendees" max_length="40" name="attendees" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="128" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="128" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Start" max_length="40" name="start" type="glide_date_time"/>
         <element label="Description" max_length="65536" name="description" type="html"/>
     </element>
