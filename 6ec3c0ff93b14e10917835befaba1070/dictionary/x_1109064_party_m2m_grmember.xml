@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b70bc40c933ec210917835befaba1069" label="Group members" max_length="40" name="x_1109064_party_m2m_grmember" type="collection">
+        <element attributes="encode_utf8=false" label="People" max_length="32" name="x_1109064_party_person" reference="x_1109064_party_person" type="reference"/>
+        <element attributes="encode_utf8=false" label="Groups" max_length="32" name="x_1109064_party_group" reference="x_1109064_party_group" type="reference"/>
+        <index name="index">
+            <element name="x_1109064_party_group"/>
+        </index>
+        <index name="index2">
+            <element name="x_1109064_party_person"/>
+        </index>
+    </element>
+</database>

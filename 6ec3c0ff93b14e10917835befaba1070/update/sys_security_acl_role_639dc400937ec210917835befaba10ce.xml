@@ -2,17 +2,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2024-05-05 13:47:04</sys_created_on>
-        <sys_id>b2984264934ec210917835befaba103e</sys_id>
+        <sys_created_on>2024-06-09 22:20:02</sys_created_on>
+        <sys_id>639dc400937ec210917835befaba10ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1109064_party_person.x_1109064_party.person_user</sys_name>
+        <sys_name>x_1109064_party_person.x_1109064_party.admin</sys_name>
         <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
         <sys_policy/>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
         <sys_security_acl display_value="x_1109064_party_person">32984264934ec210917835befaba103b</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_b2984264934ec210917835befaba103e</sys_update_name>
+        <sys_update_name>sys_security_acl_role_639dc400937ec210917835befaba10ce</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2024-05-05 13:47:04</sys_updated_on>
-        <sys_user_role display_value="x_1109064_party.person_user" name="x_1109064_party.person_user">6a980224934ec210917835befaba10bc</sys_user_role>
+        <sys_updated_on>2024-06-09 22:20:02</sys_updated_on>
+        <sys_user_role display_value="x_1109064_party.admin" name="x_1109064_party.admin">6d89c088933ec210917835befaba100f</sys_user_role>
     </sys_security_acl_role>
 </record_update>

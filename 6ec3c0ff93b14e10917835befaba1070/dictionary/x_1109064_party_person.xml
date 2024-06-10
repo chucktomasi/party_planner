@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="4bf70624934ec210917835befaba105a" label="Person" max_length="40" name="x_1109064_party_person" type="collection">
+        <element default="true" function_definition="true" label="Active" max_length="255" name="active" type="boolean"/>
         <element label="Best contact" max_length="4000" name="best_contact" reference="x_1109064_party_contact_type" reference_qual="active=true" reference_qual_condition="active=true" type="glide_list"/>
         <element label="Work email" max_length="40" name="work_email" type="string"/>
         <element label="Notes" max_length="255" name="notes" type="journal_input"/>
@@ -9,6 +10,7 @@
         <element label="Street" max_length="40" name="street" type="string"/>
         <element label="Zip" max_length="40" name="zip" type="string"/>
         <element label="Family/group lead" max_length="255" name="family_group_lead" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Birthday" max_length="40" name="birthday" type="glide_date"/>
         <element label="LinkedIn" max_length="1024" name="linkedin" type="url"/>
         <element label="Facebook" max_length="1024" name="facebook" type="url"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>

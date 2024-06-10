@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-09 22:10:42</sys_created_on>
+        <sys_id>1a7b8c0c933ec210917835befaba104a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1109064_party_contact_type.x_1109064_party.admin</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_security_acl display_value="x_1109064_party_contact_type">ed4942a4934ec210917835befaba1085</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1a7b8c0c933ec210917835befaba104a</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-09 22:10:42</sys_updated_on>
+        <sys_user_role display_value="x_1109064_party.admin" name="x_1109064_party.admin">6d89c088933ec210917835befaba100f</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_security_acl_role_1a7b8c0c933ec210917835befaba104a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-06-09 22:10:42</sys_created_on><sys_id>1a7b8c0c933ec210917835befaba104a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1109064_party_contact_type.x_1109064_party.admin</sys_name><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_security_acl display_value="x_1109064_party_contact_type">ed4942a4934ec210917835befaba1085</sys_security_acl><sys_update_name>sys_security_acl_role_1a7b8c0c933ec210917835befaba104a</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-06-09 22:10:42</sys_updated_on><sys_user_role display_value="x_1109064_party.admin" name="x_1109064_party.admin">6d89c088933ec210917835befaba100f</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1773475051</payload_hash>
+        <record_name>x_1109064_party_contact_type.x_1109064_party.admin</record_name>
+        <reverted_from/>
+        <source>9c9f356b93420a10917835befaba103f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-09 22:10:42</sys_created_on>
+        <sys_id>e58b404c933ec210917835befaba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fff0dc0480000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-09 22:10:42</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e98b404c7d3ec210e6a379b0bfd5e550</update_guid>
+        <update_guid_history>e98b404c7d3ec210e6a379b0bfd5e550:1773475051</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1109064_party_contact_type.x_1109064_party.admin">ffdbc84c933ec210917835befaba1092</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-09 22:12:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0207a8b0935145248085f98c291fc3c4</sys_id>
+        <sys_metadata>1a7b8c0c933ec210917835befaba104a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1109064_party_contact_type.x_1109064_party.admin</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent display_value="x_1109064_party_contact_type">ed4942a4934ec210917835befaba1085</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_1a7b8c0c933ec210917835befaba104a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_1a7b8c0c933ec210917835befaba104a">e58b404c933ec210917835befaba1051</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-09 22:12:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
