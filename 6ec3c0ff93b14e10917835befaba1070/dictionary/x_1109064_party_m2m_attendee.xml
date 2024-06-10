@@ -8,7 +8,7 @@
                 <element inactive_on_update="false" label="Maybe" sequence="3" value="maybe"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="People" max_length="32" name="x_1109064_party_person" reference="x_1109064_party_person" type="reference"/>
+        <element attributes="encode_utf8=false" label="Person" max_length="32" name="x_1109064_party_person" reference="x_1109064_party_person" type="reference"/>
         <element default="1" label="Number in party" max_length="40" name="number_in_party" type="integer"/>
         <element label="Notes" max_length="4000" name="notes" type="journal_input"/>
         <element label="Attended" max_length="255" name="attended" type="boolean"/>

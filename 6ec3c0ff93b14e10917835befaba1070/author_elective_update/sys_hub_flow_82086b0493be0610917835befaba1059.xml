@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Process the groups into attendee (m2m) records</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>new_party_event</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"24b8bcf8-4da2-4eb9-9757-1d936dcd6bb6":["requested_item"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>New party event</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-10 14:14:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82086b0493be0610917835befaba1059</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New party event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_hub_flow_82086b0493be0610917835befaba1059</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-10 14:14:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=82086b0493be0610917835befaba1059"/>
+    <sys_variable_value action="DELETE" query="document_key=82086b0493be0610917835befaba1059"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=82086b0493be0610917835befaba1059^sys_idNOT IN2c28ab0493be0610917835befaba102f"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="New party event">82086b0493be0610917835befaba1059</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-10 14:14:34</sys_created_on>
+        <sys_id>2c28ab0493be0610917835befaba102f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-10 14:14:34</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=2c28ab0493be0610917835befaba102f"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=82086b0493be0610917835befaba1059"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=82086b0493be0610917835befaba1059^sys_idNOT INc6086b0493be0610917835befaba105b"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>82086b0493be0610917835befaba1059</id>
+        <name>New party event</name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-10 14:14:07</sys_created_on>
+        <sys_id>c6086b0493be0610917835befaba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-10 14:14:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=c6086b0493be0610917835befaba105b"/>
+    <sys_hub_flow_input action="DELETE" query="model=82086b0493be0610917835befaba1059"/>
+    <sys_hub_flow_output action="DELETE" query="model=82086b0493be0610917835befaba1059"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=82086b0493be0610917835befaba1059"/>
+    <sys_hub_action_instance action="DELETE" query="flow=82086b0493be0610917835befaba1059^sys_idNOT IN2c286f0493be0610917835befaba1089"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="New party event">82086b0493be0610917835befaba1059</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-10 14:14:34</sys_created_on>
+        <sys_id>2c286f0493be0610917835befaba1089</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-10 14:14:34</sys_updated_on>
+        <ui_id>24b8bcf8-4da2-4eb9-9757-1d936dcd6bb6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=2c286f0493be0610917835befaba1089"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8^id=2c286f0493be0610917835befaba1089"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=2c286f0493be0610917835befaba1089"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2c286f0493be0610917835befaba1089"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=82086b0493be0610917835befaba1059"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=82086b0493be0610917835befaba1059"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=82086b0493be0610917835befaba1059"/>
+    <sys_hub_flow_variable action="DELETE" query="model=82086b0493be0610917835befaba1059"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_82086b0493be0610917835befaba1059"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_82086b0493be0610917835befaba1059"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_82086b0493be0610917835befaba1059"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_82086b0493be0610917835befaba1059"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=82086b0493be0610917835befaba1059"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=82086b0493be0610917835befaba1059"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_hub_flow_82086b0493be0610917835befaba1059</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Process the groups into attendee (m2m) records</description><display_name_after_preview/><flow_priority/><generation_source/><internal_name>new_party_event</internal_name><label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"24b8bcf8-4da2-4eb9-9757-1d936dcd6bb6":["requested_item"]},"attributes":null}]</label_cache><latest_snapshot/><master_snapshot/><name>New party event</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-06-10 14:14:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>82086b0493be0610917835befaba1059</sys_id><sys_mod_count>2</sys_mod_count><sys_name>New party event</sys_name><sys_overrides/><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_hub_flow_82086b0493be0610917835befaba1059</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-06-10 14:14:48</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=82086b0493be0610917835befaba1059"/><sys_variable_value action="delete_multiple" query="document_key=82086b0493be0610917835befaba1059"/><sys_hub_trigger_instance action="delete_multiple" query="flow=82086b0493be0610917835befaba1059^sys_idNOT IN2c28ab0493be0610917835befaba102f"/><sys_hub_trigger_instance action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="New party event">82086b0493be0610917835befaba1059</flow><name>Service Catalog</name><remote_sys_id/><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-06-10 14:14:34</sys_created_on><sys_id>2c28ab0493be0610917835befaba102f</sys_id><sys_mod_count>1</sys_mod_count><sys_scope/><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-06-10 14:14:34</sys_updated_on><trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition><trigger_inputs/><trigger_outputs/><trigger_type>service_catalog</trigger_type></sys_hub_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=2c28ab0493be0610917835befaba102f"/><sys_hub_flow_stage action="delete_multiple" query="flow=82086b0493be0610917835befaba1059"/><sys_flow_cat_variable_model action="delete_multiple" query="id=82086b0493be0610917835befaba1059^sys_idNOT INc6086b0493be0610917835befaba105b"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>82086b0493be0610917835befaba1059</id><name>New party event</name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-06-10 14:14:07</sys_created_on><sys_id>c6086b0493be0610917835befaba105b</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-06-10 14:14:07</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c6086b0493be0610917835befaba105b"/><sys_hub_flow_input action="delete_multiple" query="model=82086b0493be0610917835befaba1059"/><sys_hub_flow_output action="delete_multiple" query="model=82086b0493be0610917835befaba1059"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=82086b0493be0610917835befaba1059"/><sys_hub_action_instance action="delete_multiple" query="flow=82086b0493be0610917835befaba1059^sys_idNOT IN2c286f0493be0610917835befaba1089"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="New party event">82086b0493be0610917835befaba1059</flow><generation_source/><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-06-10 14:14:34</sys_created_on><sys_id>2c286f0493be0610917835befaba1089</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-06-10 14:14:34</sys_updated_on><ui_id>24b8bcf8-4da2-4eb9-9757-1d936dcd6bb6</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=2c286f0493be0610917835befaba1089"/><sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8^id=2c286f0493be0610917835befaba1089"/><sys_hub_input_scripts action="delete_multiple" query="instance=2c286f0493be0610917835befaba1089"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=2c286f0493be0610917835befaba1089"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=82086b0493be0610917835befaba1059"/><sys_hub_flow_logic action="delete_multiple" query="flow=82086b0493be0610917835befaba1059"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=82086b0493be0610917835befaba1059"/><sys_hub_flow_variable action="delete_multiple" query="model=82086b0493be0610917835befaba1059"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_82086b0493be0610917835befaba1059"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_82086b0493be0610917835befaba1059"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_82086b0493be0610917835befaba1059"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_82086b0493be0610917835befaba1059"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=82086b0493be0610917835befaba1059"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=82086b0493be0610917835befaba1059"/></record_update>]]></payload>
+        <payload_hash>1767414306</payload_hash>
+        <record_name>New party event</record_name>
+        <reverted_from/>
+        <source>9c9f356b93420a10917835befaba103f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-10 14:14:48</sys_created_on>
+        <sys_id>c838ef0493be0610917835befaba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190028069a60000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-10 14:14:48</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>4038ef044dbe061074cf6974c5907cbc</update_guid>
+        <update_guid_history>4038ef044dbe061074cf6974c5907cbc:1767414306,0728234472be06109082bf93e6f18aa8:1725006112,c6086b04cfbe0610256b5c1cb53b635f:1599260914</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-10 14:17:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>23ceb572cb1845f58400cf29fe5403f9</sys_id>
+        <sys_metadata>82086b0493be0610917835befaba1059</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New party event</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_82086b0493be0610917835befaba1059</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_82086b0493be0610917835befaba1059">c838ef0493be0610917835befaba10bc</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-10 14:17:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
