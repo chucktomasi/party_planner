@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1109064_party.PartyUtilsAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Client callable functions for the party app</description>
+        <name>PartyUtilsAjax</name>
+        <script><![CDATA[var PartyUtilsAjax = Class.create();
+PartyUtilsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getRSVPEmails: function() {
+        var emailList = [];
+        var attendeeGr = new GlideRecordSecure('x_1109064_party_m2m_attendee');
+
+        attendeeGr.addQuery('x_1109064_party_event', this.getParameter('sysparm_event'));
+        attendeeGr.addQuery('rsvp', this.getParameter('sysparm_rsvp'));
+        attendeeGr.query();
+
+        while (attendeeGr.next()) {
+            var pe = attendeeGr.x_1109064_party_person.personal_email.toString();
+            var we = attendeeGr.x_1109064_party_person.work_email.toString();
+            if (pe) {
+                emailList.push(pe);
+            } else if (we) {
+                emailList.push(we);
+            }
+        }
+
+        var au = new global.ArrayUtil();
+        emailList = au.unique(emailList);
+
+        return emailList.join(',');
+
+    },
+
+    getAttendedEmails: function() {
+        var emailList = [];
+        var attendeeGr = new GlideRecord('x_1109064_party_m2m_attendee');
+
+        attendeeGr.addQuery('x_1109064_party_event', this.getParameter('sysparm_event'));
+        attendeeGr.addQuery('attended', this.getParameter('sysparm_attended'));
+        attendeeGr.query();
+
+        while (attendeeGr.next()) {
+            var pe = attendeeGr.x_1109064_party_person.personal_email.toString();
+            var we = attendeeGr.x_1109064_party_person.work_email.toString();
+            if (pe) {
+                emailList.push(pe);
+            } else if (we) {
+                emailList.push(we);
+            }
+        }
+
+        var au = new global.ArrayUtil();
+        emailList = au.unique(emailList);
+
+        return emailList.join(',');
+
+    },
+
+    getAllEmails: function() {
+        var emailList = [];
+        var attendeeGr = new GlideRecord('x_1109064_party_m2m_attendee');
+
+        attendeeGr.addQuery('x_1109064_party_event', this.getParameter('sysparm_event'));
+        attendeeGr.query();
+
+        while (attendeeGr.next()) {
+            var pe = attendeeGr.x_1109064_party_person.personal_email.toString();
+            var we = attendeeGr.x_1109064_party_person.work_email.toString();
+            if (pe) {
+                emailList.push(pe);
+            } else if (we) {
+                emailList.push(we);
+            }
+        }
+
+        var au = new global.ArrayUtil();
+        emailList = au.unique(emailList);
+
+        return emailList.join(',');
+
+    },
+
+    type: 'PartyUtilsAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-06-12 23:08:34</sys_created_on>
+        <sys_id>9f82bf3893728210917835befaba1036</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>PartyUtilsAjax</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_script_include_9f82bf3893728210917835befaba1036</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-06-13 13:01:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

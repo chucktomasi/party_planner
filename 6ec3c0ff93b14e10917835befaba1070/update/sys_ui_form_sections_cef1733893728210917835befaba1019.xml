@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="cef1733893728210917835befaba1019" sys_domain="global" table="x_1109064_party_event" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-06-12 22:52:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8af1733893728210917835befaba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1109064_party_event" name="x_1109064_party_event" sys_domain="global" view="Default view">cef1733893728210917835befaba1019</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1109064_party_event" sys_domain="global" view="Default view">1ada8ee4934ec210917835befaba1038</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-06-12 22:52:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-06-12 22:52:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86f1733893728210917835befaba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1109064_party_event" name="x_1109064_party_event" sys_domain="global" view="Default view">cef1733893728210917835befaba1019</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1109064_party_event" sys_domain="global" view="Default view">cef1733893728210917835befaba1015</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-06-12 22:52:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-06-12 22:52:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82f1733893728210917835befaba1061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1109064_party_event" name="x_1109064_party_event" sys_domain="global" view="Default view">cef1733893728210917835befaba1019</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1109064_party_event" sys_domain="global" view="Default view">4ef1733893728210917835befaba1018</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-06-12 22:52:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1109064_party_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-06-12 22:52:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cef1733893728210917835befaba1019</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1109064_party_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+            <sys_update_name>sys_ui_form_sections_cef1733893728210917835befaba1019</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-06-12 22:52:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
