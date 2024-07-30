@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_set">
+    <sys_export_set action="INSERT_OR_UPDATE">
+        <append_timestamp>false</append_timestamp>
+        <export_definition display_value="Party Attendees">e308d97f1bdfc2106f74cb75604bcb6b</export_definition>
+        <export_target display_value="ChuckTomasi Party">8f78d5bf1bdfc2106f74cb75604bcb17</export_target>
+        <file_name>party_attendee.xml</file_name>
+        <format>XML</format>
+        <max_rows>0</max_rows>
+        <name>Party Attendee</name>
+        <sys_class_name>sys_export_set</sys_class_name>
+        <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
+        <sys_created_on>2024-07-16 16:03:39</sys_created_on>
+        <sys_id>215a95731b1306106f74cb75604bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Party Attendee</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_export_set_215a95731b1306106f74cb75604bcbbe</sys_update_name>
+        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-16 16:03:39</sys_updated_on>
+        <use_display_value>false</use_display_value>
+        <use_label>false</use_label>
+    </sys_export_set>
+</record_update>
