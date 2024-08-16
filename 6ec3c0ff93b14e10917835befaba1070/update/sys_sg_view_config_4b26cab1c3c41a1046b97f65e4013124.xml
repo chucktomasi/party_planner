@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description>Party event listing</description>
+        <name>Parties card</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 20:54:24</sys_created_on>
+        <sys_id>4b26cab1c3c41a1046b97f65e4013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parties card</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_view_config_4b26cab1c3c41a1046b97f65e4013124</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 20:54:24</sys_updated_on>
+        <table>x_1109064_party_event</table>
+        <template display_value="Template 20">fb7edf67c0ff8110f877fff44c61cf78</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=4b26cab1c3c41a1046b97f65e4013124"/>
+</record_update>

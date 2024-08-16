@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_01_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 21:07:38</sys_created_on>
+        <sys_id>303986f5c3c41a1046b97f65e4013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_01_element</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_303986f5c3c41a1046b97f65e4013155</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 21:07:38</sys_updated_on>
+        <view_config display_value="Party record">021986f5c3c41a1046b97f65e401316e</view_config>
+        <view_template_slot display_value="text_01">7abe3000778211108f64b2487b5a99ff</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

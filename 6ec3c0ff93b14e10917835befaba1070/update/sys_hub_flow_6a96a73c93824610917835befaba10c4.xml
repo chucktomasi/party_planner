@@ -255,10 +255,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-05-06 15:58:25</sys_created_on>
         <sys_id>bc40bb3c930a4610917835befaba105b</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
-        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
-        <sys_updated_on>2024-07-30 21:44:53</sys_updated_on>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 20:38:51</sys_updated_on>
         <ui_id>f7f793d3-9944-45e6-a69c-a41125a489d2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc40bb3c930a4610917835befaba105b"/>
@@ -331,10 +331,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-05-06 15:48:48</sys_created_on>
         <sys_id>c41eab78930a4610917835befaba103c</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
-        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
-        <sys_updated_on>2024-07-30 21:44:53</sys_updated_on>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 20:38:51</sys_updated_on>
         <ui_id>ff8f7fe2-3b29-4062-963b-54a7baa92e9d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c41eab78930a4610917835befaba103c"/>
@@ -383,10 +383,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-05-06 15:52:19</sys_created_on>
         <sys_id>dfdeebb8930a4610917835befaba10c5</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
-        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
-        <sys_updated_on>2024-07-30 21:44:53</sys_updated_on>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 20:38:51</sys_updated_on>
         <ui_id>672ab9c3-c2d8-46a9-b946-e269aeb1c17e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dfdeebb8930a4610917835befaba10c5"/>
@@ -1700,14 +1700,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>6a96a73c93824610917835befaba10c4</sys_id>
         <latest_snapshot>ef3433b0934a4610917835befaba10d4</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch4-hotfix1-06-10-2024_06-17-2024_2231.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6a96a73c93824610917835befaba10c4"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6a96a73c93824610917835befaba10c4^sys_idNOT IN373473b0934a4610917835befaba105e"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"373473b0934a4610917835befaba105e","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Sum Event RSVPs">6a96a73c93824610917835befaba10c4</plan_id>
-        <snapshot>64be2adc1b3b8a506f74cb75604bcbcd</snapshot>
+        <snapshot>8b9286bdc3841a1046b97f65e4013109</snapshot>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2024-05-06 16:15:50</sys_created_on>
         <sys_domain>global</sys_domain>
