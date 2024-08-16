@@ -2,17 +2,17 @@
     <element audit="true" db_object_id="b0f88664934ec210917835befaba109f" label="Attendee" max_length="40" name="x_1109064_party_m2m_attendee" type="collection">
         <element choice="3" default="pending" label="RSVP" max_length="40" name="rsvp" type="choice">
             <choice>
-                <element inactive_on_update="false" label="No" sequence="2" value="no"/>
                 <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
-                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
                 <element inactive_on_update="false" label="Maybe" sequence="3" value="maybe"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="no"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Person" max_length="32" name="x_1109064_party_person" reference="x_1109064_party_person" type="reference"/>
-        <element default="1" label="Number in party" max_length="40" name="number_in_party" type="integer"/>
         <element label="Notes" max_length="4000" name="notes" type="journal_input"/>
         <element label="Attended" max_length="255" name="attended" type="boolean"/>
         <element label="Invite sent" max_length="255" name="invite_sent" type="boolean"/>
+        <element default="1" label="Number in party" max_length="40" name="number_in_party" type="integer"/>
         <element attributes="encode_utf8=false" label="Event" max_length="32" name="x_1109064_party_event" reference="x_1109064_party_event" type="reference"/>
         <index name="index">
             <element name="x_1109064_party_event"/>

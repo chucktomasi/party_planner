@@ -4,13 +4,13 @@
             <element>notes</element>
             <position>0</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-06-12 22:52:58</sys_created_on>
-            <sys_id>8af1733893728210917835befaba107b</sys_id>
+            <sys_created_on>2024-08-16 18:49:07</sys_created_on>
+            <sys_id>fb7965bdc3041a1046b97f65e4013168</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Log" display_value="Log" name="x_1109064_party_event" sys_domain="global" view="Default view">4ef1733893728210917835befaba1018</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-06-12 22:52:58</sys_updated_on>
+            <sys_updated_on>2024-08-16 18:49:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,55 @@
             <element>activity.xml</element>
             <position>1</position>
             <sys_created_by>chuck.tomasi</sys_created_by>
-            <sys_created_on>2024-06-12 22:52:58</sys_created_on>
-            <sys_id>02f1733893728210917835befaba107c</sys_id>
+            <sys_created_on>2024-08-16 18:49:07</sys_created_on>
+            <sys_id>737965bdc3041a1046b97f65e4013169</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Log" display_value="Log" name="x_1109064_party_event" sys_domain="global" view="Default view">4ef1733893728210917835befaba1018</sys_ui_section>
             <sys_updated_by>chuck.tomasi</sys_updated_by>
-            <sys_updated_on>2024-06-12 22:52:58</sys_updated_on>
+            <sys_updated_on>2024-08-16 18:49:07</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-08-16 18:49:07</sys_created_on>
+            <sys_id>bb7965bdc3041a1046b97f65e4013169</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1109064_party_event" sys_domain="global" view="Default view">4ef1733893728210917835befaba1018</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-08-16 18:49:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>3</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-08-16 18:49:07</sys_created_on>
+            <sys_id>337965bdc3041a1046b97f65e401316a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1109064_party_event" sys_domain="global" view="Default view">4ef1733893728210917835befaba1018</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-08-16 18:49:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-08-16 18:49:07</sys_created_on>
+            <sys_id>b77965bdc3041a1046b97f65e401316a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1109064_party_event" sys_domain="global" view="Default view">4ef1733893728210917835befaba1018</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-08-16 18:49:07</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

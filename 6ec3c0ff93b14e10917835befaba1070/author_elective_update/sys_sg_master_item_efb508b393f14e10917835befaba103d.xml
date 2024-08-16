@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="DELETE">
+        <condition_order/>
+        <datasource_table>x_1109064_party_event</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Event Form Screen">a7b508b393f14e10917835befaba103a</embedded_screen>
+        <item_view/>
+        <name>Event master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>efb508b393f14e10917835befaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event master_item</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_master_item_efb508b393f14e10917835befaba103d</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_master_item_efb508b393f14e10917835befaba103d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item"><sys_sg_master_item action="INSERT_OR_UPDATE"><condition_order/><datasource_table>x_1109064_party_event</datasource_table><datasource_table_condition/><embedded_screen display_value="Event Form Screen">a7b508b393f14e10917835befaba103a</embedded_screen><item_view/><name>Event master_item</name><sys_class_name>sys_sg_master_item</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-02 20:19:52</sys_created_on><sys_id>efb508b393f14e10917835befaba103d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event master_item</sys_name><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_sg_master_item_efb508b393f14e10917835befaba103d</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-02 20:19:52</sys_updated_on><use_view_config>true</use_view_config><view_config/></sys_sg_master_item></record_update>]]></payload>
+        <payload_hash>-554682222</payload_hash>
+        <record_name>Event master_item</record_name>
+        <reverted_from/>
+        <source>a3b5e939c3041a1046b97f65e4013127</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:49:45</sys_created_on>
+        <sys_id>41a929bdc3041a1046b97f65e40131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c8638820000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:49:45</sys_updated_on>
+        <type>List item config</type>
+        <update_guid>0da929bdb9041a10a9cee3235f9935a9</update_guid>
+        <update_guid_history>0da929bdb9041a10a9cee3235f9935a9:0,c7a5e139e7041a102b4694171d19d942:0,fc55a9b5aa041a10a76f132e53d4c8c7:683603460,fc55a9b541041a101e3d36649101c3a4:0,6f22076e6b7f0a107b8710aef343a08d:0,12c147ea257f0a10f1ca4944d7c8a579:981424559,56c147ea6f7f0a104ce203370947955c:0,44c548b307f14e10d26d0a77f694061d:577508534</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:51:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_master_item">sys_sg_master_item</sys_db_object>
+        <sys_id>242c6cde212e4361a9b708be2e693ab9</sys_id>
+        <sys_metadata>efb508b393f14e10917835befaba103d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event master_item</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_master_item_efb508b393f14e10917835befaba103d</sys_update_name>
+        <sys_update_version display_value="sys_sg_master_item_efb508b393f14e10917835befaba103d">41a929bdc3041a1046b97f65e40131aa</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:51:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="DELETE">
+        <item_stream display_value="Event Item Stream">2fb508b393f14e10917835befaba103c</item_stream>
+        <master_item/>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>2fb508b393f14e10917835befaba103e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_2fb508b393f14e10917835befaba103e</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_item_stream_m2m_master_item_2fb508b393f14e10917835befaba103e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item"><sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE"><item_stream display_value="Event Item Stream">2fb508b393f14e10917835befaba103c</item_stream><master_item/><sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-02 20:19:52</sys_created_on><sys_id>2fb508b393f14e10917835befaba103e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_sg_item_stream_m2m_master_item_2fb508b393f14e10917835befaba103e</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-02 20:19:52</sys_updated_on></sys_sg_item_stream_m2m_master_item></record_update>]]></payload>
+        <payload_hash>-1883356383</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a3b5e939c3041a1046b97f65e4013127</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:51:31</sys_created_on>
+        <sys_id>870ae9bdc3041a1046b97f65e401312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c87d5e90000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:51:31</sys_updated_on>
+        <type>Stream M2M item config</type>
+        <update_guid>430ae9bd55041a1025720da056fdda2e</update_guid>
+        <update_guid_history>430ae9bd55041a1025720da056fdda2e:0,faa5e13933041a109f420c78e07fc238:0,fe556db5ad041a10c75d9e79539cfd80:-2069446301,3e556db599041a10d0c46dcabfc6fd76:0,b455a9b51e041a10c17e0839304686c5:0,6322076ece7f0a10da421ad139d80f83:0,d8d10bea2d7f0a107722ad2356d2e5de:-751811981,18d10beaf67f0a10218caefbcf2ad2d4:0,16c147ea977f0a1069963677937bf776:0,ffb508b31ef14e101ed90c8e773de8a5:1103033152</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:53:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_stream_m2m_master_item">sys_sg_item_stream_m2m_master_item</sys_db_object>
+        <sys_id>02181ae83fc64cff800b3df650b5da59</sys_id>
+        <sys_metadata>2fb508b393f14e10917835befaba103e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_2fb508b393f14e10917835befaba103e</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_stream_m2m_master_item_2fb508b393f14e10917835befaba103e">870ae9bdc3041a1046b97f65e401312e</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:53:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

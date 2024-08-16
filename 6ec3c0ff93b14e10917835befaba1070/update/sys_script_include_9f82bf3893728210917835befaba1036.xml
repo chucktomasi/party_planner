@@ -6,6 +6,7 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description>Client callable functions for the party app</description>
+        <mobile_callable>false</mobile_callable>
         <name>PartyUtilsAjax</name>
         <script><![CDATA[var PartyUtilsAjax = Class.create();
 PartyUtilsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {

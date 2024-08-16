@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="DELETE">
+        <applet_launcher/>
+        <order/>
+        <section/>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>27b508b393f14e10917835befaba1060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_27b508b393f14e10917835befaba1060</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_applet_launcher_m2m_section_27b508b393f14e10917835befaba1060</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher/><order/><section/><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-02 20:19:52</sys_created_on><sys_id>27b508b393f14e10917835befaba1060</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_27b508b393f14e10917835befaba1060</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-02 20:19:52</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+        <payload_hash>-1409129508</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a3b5e939c3041a1046b97f65e4013127</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:54:24</sys_created_on>
+        <sys_id>89bae9fdc3041a1046b97f65e401312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c8a77800000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:54:24</sys_updated_on>
+        <type>Launcher section mapping</type>
+        <update_guid>85bae9fd23041a1006f1220cc94daa2a</update_guid>
+        <update_guid_history>85bae9fd23041a1006f1220cc94daa2a:0,61c661b97e041a101a2f3c2b02ab93ca:0,a6a5a139f3041a10a891cfc9fef5c1ae:0,d6552db56a041a10abac79af4c5f7dd1:-490257520,5f22076e817f0a1056f83f7c5cdd4513:0,3fc10bea677f0a104e783119521be04f:467395691,2bb508b327f14e104843e69639805880:-239233720</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:56:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_m2m_section">sys_sg_applet_launcher_m2m_section</sys_db_object>
+        <sys_id>0356ce889f0446ba85db5a7c7d61f7f9</sys_id>
+        <sys_metadata>27b508b393f14e10917835befaba1060</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_27b508b393f14e10917835befaba1060</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_m2m_section_27b508b393f14e10917835befaba1060">89bae9fdc3041a1046b97f65e401312a</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:56:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

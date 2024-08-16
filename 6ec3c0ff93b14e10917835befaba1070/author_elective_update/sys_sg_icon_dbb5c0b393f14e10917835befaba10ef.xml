@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="DELETE">
+        <icon>{"Shape":"Circle","FontName":"now-mobile-icons","Value":"f2b9","FontColor":"#293e40","BackgroundColor":"#293e40","Name":"icon-Address-Book"}</icon>
+        <name>icon-Address-Book</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:51</sys_created_on>
+        <sys_id>dbb5c0b393f14e10917835befaba10ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icon-Address-Book</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_icon_dbb5c0b393f14e10917835befaba10ef</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:51</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_icon_dbb5c0b393f14e10917835befaba10ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Shape":"Circle","FontName":"now-mobile-icons","Value":"f2b9","FontColor":"#293e40","BackgroundColor":"#293e40","Name":"icon-Address-Book"}</icon>
+        <name>icon-Address-Book</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:51</sys_created_on>
+        <sys_id>dbb5c0b393f14e10917835befaba10ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icon-Address-Book</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_icon_dbb5c0b393f14e10917835befaba10ef</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:51</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>]]></payload>
+        <payload_hash>-2020999601</payload_hash>
+        <record_name>icon-Address-Book</record_name>
+        <reverted_from/>
+        <source>949529f5c3041a1046b97f65e40131a6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:32:23</sys_created_on>
+        <sys_id>faa5a139c3041a1046b97f65e40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c7652a40000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:32:23</sys_updated_on>
+        <type>Icon</type>
+        <update_guid>f6a5a139c4041a108d6f160271b3c6dc</update_guid>
+        <update_guid_history>f6a5a139c4041a108d6f160271b3c6dc:0,8b65a1f59c041a103131e9b5c1154966:-552841428,1322076ec07f0a102348218ee3a80646:0,85e1032e937f0a10146ebe518a96b886:-1403530692,ebb508b393f14e10fb3d6b7bd310d983:1257827271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:54:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_icon">sys_sg_icon</sys_db_object>
+        <sys_id>32ee9c84966940b0852f57053ef67881</sys_id>
+        <sys_metadata>dbb5c0b393f14e10917835befaba10ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icon-Address-Book</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_icon_dbb5c0b393f14e10917835befaba10ef</sys_update_name>
+        <sys_update_version display_value="sys_sg_icon_dbb5c0b393f14e10917835befaba10ef">faa5a139c3041a1046b97f65e40131dc</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:54:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -17,6 +17,7 @@
         <internal_name>sum_event_rsvps</internal_name>
         <label_cache>[{"name":"subflow.attendee_record.x_1109064_party_event.sys_id","label":"Input➛Attendee Record➛Event➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1109064_party_event","column_name":"sys_id","usedInstances":{"ff8f7fe2-3b29-4062-963b-54a7baa92e9d":["conditions"]}},{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"ae729a69-b584-497c-afee-6e41ff34150f":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"672ab9c3-c2d8-46a9-b946-e269aeb1c17e.Records","label":"4 - Look Up Records➛Attendee Records","reference":"x_1109064_party_m2m_attendee","reference_display":"Attendee","type":"records","base_type":"records","usedInstances":{"355ad4ec-a653-4e72-bb8a-6f258e5856c6":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record.sys_id","label":"2 - Look Up Record➛Event Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1109064_party_event","column_name":"sys_id","usedInstances":{"672ab9c3-c2d8-46a9-b946-e269aeb1c17e":["conditions"]}},{"name":"ff8f7fe2-3b29-4062-963b-54a7baa92e9d.Record","label":"2 - Look Up Record➛Event Record","reference":"x_1109064_party_event","reference_display":"Event","type":"reference","base_type":"reference","usedInstances":{"f7f793d3-9944-45e6-a69c-a41125a489d2":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.total_rsvps","label":"Flow Variables➛Total RSVPs","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"f7f793d3-9944-45e6-a69c-a41125a489d2":["rsvps"],"61be5ee1-1126-4861-adc6-ed0c1642b8de":["event_rsvp_count-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0fcefcfe-b9e1-41ce-9176-25c46fb8cb03"}}]</label_cache>
         <master_snapshot>ef3433b0934a4610917835befaba10d4</master_snapshot>
+        <master_snapshot_digest/>
         <name>Sum Event RSVPs</name>
         <natlang/>
         <outputs/>
@@ -35,21 +36,21 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6a96a73c93824610917835befaba10c4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Sum Event RSVPs</sys_name>
         <sys_overrides/>
         <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
         <sys_policy/>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
         <sys_update_name>sys_hub_flow_6a96a73c93824610917835befaba10c4</sys_update_name>
-        <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
-        <sys_updated_on>2024-07-30 21:44:26</sys_updated_on>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:32:18</sys_updated_on>
         <type>subflow</type>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6a96a73c93824610917835befaba10c4"/>
     <sys_variable_value action="delete_multiple" query="document_key=6a96a73c93824610917835befaba10c4"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4^id=6a96a73c93824610917835befaba10c4"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=6a96a73c93824610917835befaba10c4^sys_idNOT IN2296a73c93824610917835befaba10c7"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -186,6 +187,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Integer">integer</internal_type>
         <label>Event RSVP Count</label>
         <mandatory>false</mandatory>
@@ -235,6 +237,7 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c3e6f78930a4610917835befaba109b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a96a73c93824610917835befaba10c4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4^sys_idNOT INbc40bb3c930a4610917835befaba105b,c41eab78930a4610917835befaba103c,dfdeebb8930a4610917835befaba10c5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -442,7 +445,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=dfdeebb8930a4610917835befaba10c5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=dfdeebb8930a4610917835befaba10c5"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4^sys_idNOT IN17af6bf8930a4610917835befaba109f,2e4e2ffc93c64610917835befaba1036,a25ee7b0930a4610917835befaba1047,c42f63b0930a4610917835befaba109a,dbd0ff3c930a4610917835befaba10c3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -720,6 +722,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dbd0ff3c930a4610917835befaba10c3"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=dbd0ff3c930a4610917835befaba10c3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6a96a73c93824610917835befaba10c4"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=6a96a73c93824610917835befaba10c4"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=6a96a73c93824610917835befaba10c4^sys_idNOT INf84eeb78930a4610917835befaba106a"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -819,11 +822,11 @@
         <sys_created_on>2024-05-06 15:49:24</sys_created_on>
         <sys_id>683e6f78930a4610917835befaba1092</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Attendee Record</sys_name>
         <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
         <sys_policy/>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6a96a73c93824610917835befaba10c4_attendee_record_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-05-06 15:49:24</sys_updated_on>
         <url/>
@@ -844,11 +847,11 @@
         <sys_created_on>2024-05-06 15:49:24</sys_created_on>
         <sys_id>a03e6f78930a4610917835befaba10ab</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event RSVP Count</sys_name>
         <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
         <sys_policy/>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_6a96a73c93824610917835befaba10c4_event_rsvp_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-05-06 16:01:22</sys_updated_on>
         <url/>
@@ -896,11 +899,11 @@
         <sys_updated_by>chuck.tomasi@gmail.com</sys_updated_by>
         <sys_updated_on>2024-07-30 21:44:25</sys_updated_on>
         <type>subflow</type>
+        <version/>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=ef3433b0934a4610917835befaba10d4"/>
     <sys_variable_value action="delete_multiple" query="document_key=ef3433b0934a4610917835befaba10d4"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4^id=ef3433b0934a4610917835befaba10d4"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=ef3433b0934a4610917835befaba10d4^sys_idNOT IN2b3433b0934a4610917835befaba10d5"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1037,6 +1040,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Integer">integer</internal_type>
         <label>Event RSVP Count</label>
         <mandatory>false</mandatory>
@@ -1086,6 +1090,7 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb3473b0934a4610917835befaba1002"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ef3433b0934a4610917835befaba10d4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4^sys_idNOT IN233473b0934a4610917835befaba102c,a33473b0934a4610917835befaba1035,b73473b0934a4610917835befaba103c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1279,7 +1284,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b73473b0934a4610917835befaba103c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b73473b0934a4610917835befaba103c"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4^sys_idNOT IN673473b0934a4610917835befaba1020,ab3473b0934a4610917835befaba1012,ab3473b0934a4610917835befaba1016,ab3473b0934a4610917835befaba1019,af3473b0934a4610917835befaba101c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1557,6 +1561,7 @@
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
     </sys_hub_input_scripts>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ef3433b0934a4610917835befaba10d4"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ef3433b0934a4610917835befaba10d4"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=ef3433b0934a4610917835befaba10d4^sys_idNOT INef3473b0934a4610917835befaba100d"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -1656,11 +1661,11 @@
         <sys_created_on>2024-05-06 16:15:49</sys_created_on>
         <sys_id>e33433b0934a4610917835befaba10fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Attendee Record</sys_name>
         <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
         <sys_policy/>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ef3433b0934a4610917835befaba10d4_attendee_record_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
         <url/>
@@ -1681,11 +1686,11 @@
         <sys_created_on>2024-05-06 16:15:49</sys_created_on>
         <sys_id>a33473b0934a4610917835befaba1007</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event RSVP Count</sys_name>
         <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
         <sys_policy/>
         <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_ef3433b0934a4610917835befaba10d4_event_rsvp_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2024-05-06 16:15:49</sys_updated_on>
         <url/>

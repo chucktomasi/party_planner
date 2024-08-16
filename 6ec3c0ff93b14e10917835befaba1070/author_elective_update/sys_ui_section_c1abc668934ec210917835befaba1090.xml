@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Event" section_id="c1abc668934ec210917835befaba1090" sys_domain="global" table="x_1109064_party_event" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>85abc668934ec210917835befaba1091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start</element>
+            <position>1</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>0dabc668934ec210917835befaba1091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end</element>
+            <position>2</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>81abc668934ec210917835befaba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>09abc668934ec210917835befaba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>8dabc668934ec210917835befaba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attendees</element>
+            <position>5</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>05abc668934ec210917835befaba1093</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rsvps</element>
+            <position>6</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>89abc668934ec210917835befaba1093</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kid_friendly</element>
+            <position>7</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>01abc668934ec210917835befaba1094</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>85abc668934ec210917835befaba1094</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>9</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>0dabc668934ec210917835befaba1094</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>10</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>81abc668934ec210917835befaba1095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>11</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>09abc668934ec210917835befaba1095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Event</caption>
+            <header>false</header>
+            <name>x_1109064_party_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1abc668934ec210917835befaba1090</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1109064_party_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+            <sys_update_name>sys_ui_section_c1abc668934ec210917835befaba1090</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_ui_section_c1abc668934ec210917835befaba1090</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Event" section_id="c1abc668934ec210917835befaba1090" sys_domain="global" table="x_1109064_party_event" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>85abc668934ec210917835befaba1091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start</element>
+            <position>1</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>0dabc668934ec210917835befaba1091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end</element>
+            <position>2</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>81abc668934ec210917835befaba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>09abc668934ec210917835befaba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>8dabc668934ec210917835befaba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attendees</element>
+            <position>5</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>05abc668934ec210917835befaba1093</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rsvps</element>
+            <position>6</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>89abc668934ec210917835befaba1093</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kid_friendly</element>
+            <position>7</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>01abc668934ec210917835befaba1094</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>85abc668934ec210917835befaba1094</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>9</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>0dabc668934ec210917835befaba1094</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>10</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>81abc668934ec210917835befaba1095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>11</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_id>09abc668934ec210917835befaba1095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Event" display_value="Event" name="x_1109064_party_event" sys_domain="global" view="Default view">c1abc668934ec210917835befaba1090</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Event</caption>
+            <header>false</header>
+            <name>x_1109064_party_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2024-05-05 14:00:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1abc668934ec210917835befaba1090</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1109064_party_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+            <sys_update_name>sys_ui_section_c1abc668934ec210917835befaba1090</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2024-05-05 14:00:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1046428581</payload_hash>
+        <record_name>Event</record_name>
+        <reverted_from/>
+        <source>949529f5c3041a1046b97f65e40131a6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:32:29</sys_created_on>
+        <sys_id>08b56539c3041a1046b97f65e401318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c7666f60000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:32:29</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c0b565396d041a109aa6ac5e6e25598a</update_guid>
+        <update_guid_history>c0b565396d041a109aa6ac5e6e25598a:0,8b7b8df175801a104184d80db0ecd3b5:1970768643,e432876e077f0a10f3a7ed907a176686:0,85c1c3ea1f7f0a10f1e8bae6aa00411a:1970768643,c1abc668694ec210eef49af44c91b69d:-493448899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:49:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>c5af4c9c0dc242409983cd960dcb9000</sys_id>
+        <sys_metadata>c1abc668934ec210917835befaba1090</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1109064_party_event</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent display_value="Event">e68580b393f14e10917835befaba10c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c1abc668934ec210917835befaba1090</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c1abc668934ec210917835befaba1090">08b56539c3041a1046b97f65e401318a</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:49:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

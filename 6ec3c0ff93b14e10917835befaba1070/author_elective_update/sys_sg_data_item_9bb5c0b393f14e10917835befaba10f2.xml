@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Party Planner Event</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:51</sys_created_on>
+        <sys_id>9bb5c0b393f14e10917835befaba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Party Planner Event</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_data_item_9bb5c0b393f14e10917835befaba10f2</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:51</sys_updated_on>
+        <table>x_1109064_party_event</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=9bb5c0b393f14e10917835befaba10f2"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_data_item_9bb5c0b393f14e10917835befaba10f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Party Planner Event</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:51</sys_created_on>
+        <sys_id>9bb5c0b393f14e10917835befaba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Party Planner Event</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_data_item_9bb5c0b393f14e10917835befaba10f2</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:51</sys_updated_on>
+        <table>x_1109064_party_event</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=9bb5c0b393f14e10917835befaba10f2"/>
+</record_update>]]></payload>
+        <payload_hash>722453954</payload_hash>
+        <record_name>Party Planner Event</record_name>
+        <reverted_from/>
+        <source>949529f5c3041a1046b97f65e40131a6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:32:23</sys_created_on>
+        <sys_id>76a5a139c3041a1046b97f65e40131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c7651e80000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:32:23</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>32a5a139f1041a101f150b8dc98909d0</update_guid>
+        <update_guid_history>32a5a139f1041a101f150b8dc98909d0:0,1855a9b5a9041a1095a869d937222b30:-525473103,1b22076ec67f0a109f7dae43021d322b:0,f5c107ea597f0a10f49034473d15947b:751669993,b7b508b3e1f14e10481d96bb313dfcd5:1854106894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:40:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>0a264ce6b805459f919878a8c2d3e591</sys_id>
+        <sys_metadata>9bb5c0b393f14e10917835befaba10f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Party Planner Event</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_9bb5c0b393f14e10917835befaba10f2</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_9bb5c0b393f14e10917835befaba10f2">76a5a139c3041a1046b97f65e40131d0</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:40:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

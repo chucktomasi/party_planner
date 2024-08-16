@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="e68580b393f14e10917835befaba10c6" label="Event" max_length="40" name="x_1109064_party_event" type="collection">
-        <element label="Notes" max_length="255" name="notes" type="journal_input"/>
+        <element label="Kid friendly" max_length="40" name="kid_friendly" type="boolean"/>
+        <element label="Description" max_length="65536" name="description" type="html"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="future" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Future" value="future"/>
-                <element inactive_on_update="false" label="Past" value="past"/>
                 <element inactive_on_update="false" label="Canceled" value="canceled"/>
+                <element inactive_on_update="false" label="Past" value="past"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="End" max_length="40" name="end" type="glide_date_time"/>
-        <element default="0" label="RSVPs" max_length="40" name="rsvps" type="integer"/>
-        <element label="Kid friendly" max_length="40" name="kid_friendly" type="boolean"/>
         <element label="Attendees" max_length="40" name="attendees" type="integer"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="128" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element default="0" label="RSVPs" max_length="40" name="rsvps" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Start" max_length="40" name="start" type="glide_date_time"/>
-        <element label="Description" max_length="65536" name="description" type="html"/>
+        <element label="Notes" max_length="255" name="notes" type="journal_input"/>
     </element>
 </database>

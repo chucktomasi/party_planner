@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map">
+    <sys_sg_navigation_tab_map action="DELETE">
+        <navigation display_value="Mobile Agent">679d4f0653d033002d96ddeeff7b1279</navigation>
+        <navigation_tab/>
+        <order>500</order>
+        <sys_class_name>sys_sg_navigation_tab_map</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>efb508b393f14e10917835befaba1060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_navigation_tab_map_efb508b393f14e10917835befaba1060</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+    </sys_sg_navigation_tab_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_navigation_tab_map_efb508b393f14e10917835befaba1060</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map"><sys_sg_navigation_tab_map action="INSERT_OR_UPDATE"><navigation display_value="Mobile Agent">679d4f0653d033002d96ddeeff7b1279</navigation><navigation_tab/><order>500</order><sys_class_name>sys_sg_navigation_tab_map</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-02 20:19:52</sys_created_on><sys_id>efb508b393f14e10917835befaba1060</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_sg_navigation_tab_map_efb508b393f14e10917835befaba1060</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-02 20:19:52</sys_updated_on></sys_sg_navigation_tab_map></record_update>]]></payload>
+        <payload_hash>-1976465968</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a3b5e939c3041a1046b97f65e4013127</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:44:13</sys_created_on>
+        <sys_id>8068a93dc3041a1046b97f65e401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c8127270000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:44:13</sys_updated_on>
+        <type>Navigation Tab Map</type>
+        <update_guid>4c68a93d5c041a1055bea76d12e1c869</update_guid>
+        <update_guid_history>4c68a93d5c041a1055bea76d12e1c869:0,43a5e139ee041a105d32727ccf6b5a45:0,2765e1f5a1041a10c1250fa44a4bf735:-257207929,4365a1f506041a103c6cabc642d0254c:0,6f22076eb07f0a101247da79951877a9:0,e5e1432ec57f0a1034cda49e5fecd27f:1846994518,f4e1032e497f0a105b88ae4d28b3b178:0,23b508b3fcf14e10662af0427d606a7d:-5477612</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:50:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_navigation_tab_map">sys_sg_navigation_tab_map</sys_db_object>
+        <sys_id>1f3633fd5d1e425b92ace2d7318a3e61</sys_id>
+        <sys_metadata>efb508b393f14e10917835befaba1060</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_navigation_tab_map_efb508b393f14e10917835befaba1060</sys_update_name>
+        <sys_update_version display_value="sys_sg_navigation_tab_map_efb508b393f14e10917835befaba1060">8068a93dc3041a1046b97f65e401316a</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:50:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

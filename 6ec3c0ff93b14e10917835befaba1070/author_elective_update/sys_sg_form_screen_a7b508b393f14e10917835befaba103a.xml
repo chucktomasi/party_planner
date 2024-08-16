@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen">
+    <sys_sg_form_screen action="DELETE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon/>
+        <item_view/>
+        <name>Event Form Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>a7b508b393f14e10917835befaba103a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Form Screen</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_form_screen_a7b508b393f14e10917835befaba103a</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+        <table>x_1109064_party_event</table>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_form_screen>
+    <sys_translated_text action="DELETE" query="documentkey=a7b508b393f14e10917835befaba103a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_form_screen_a7b508b393f14e10917835befaba103a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen"><sys_sg_form_screen action="INSERT_OR_UPDATE"><alert/><available_offline>false</available_offline><data_item/><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon/><item_view/><name>Event Form Screen</name><override_context_with_data_item>false</override_context_with_data_item><parameter_screen/><roles_override/><segments_height>medium</segments_height><segments_min_width>medium</segments_min_width><sys_class_name>sys_sg_form_screen</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-02 20:19:52</sys_created_on><sys_id>a7b508b393f14e10917835befaba103a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event Form Screen</sys_name><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_sg_form_screen_a7b508b393f14e10917835befaba103a</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-02 20:19:52</sys_updated_on><table>x_1109064_party_event</table><use_view_config>true</use_view_config><view_config/></sys_sg_form_screen><sys_translated_text action="delete_multiple" query="documentkey=a7b508b393f14e10917835befaba103a"/></record_update>]]></payload>
+        <payload_hash>-677326365</payload_hash>
+        <record_name>Event Form Screen</record_name>
+        <reverted_from/>
+        <source>a3b5e939c3041a1046b97f65e4013127</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:54:43</sys_created_on>
+        <sys_id>b9caa131c3441a1046b97f65e40131ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c8ac5160000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:54:43</sys_updated_on>
+        <type>Record screen</type>
+        <update_guid>b5caa131de441a10877510978c3ca0ea</update_guid>
+        <update_guid_history>b5caa131de441a10877510978c3ca0ea:0,0da929bd62041a108b728311aab8b0a0:0,baa5a139fb041a103b9539e150a80bd5:0,5a6561f507041a100f4d2b7a636e8e92:-1136663817,6c55a9b5a6041a109313e518471c8d6b:0,d322076e5a7f0a10a7f33b4e0120703e:0,44e18fea7d7f0a102fdb2d9294bb12a0:275767837,06c107ea367f0a10bcf0b02c73d554cf:0,4cc548b3f8f14e10711b09dc7edd5e4b:146659143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:55:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_form_screen">sys_sg_form_screen</sys_db_object>
+        <sys_id>5c94489911aa4e9eafd6072feff30824</sys_id>
+        <sys_metadata>a7b508b393f14e10917835befaba103a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Form Screen</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_form_screen_a7b508b393f14e10917835befaba103a</sys_update_name>
+        <sys_update_version display_value="sys_sg_form_screen_a7b508b393f14e10917835befaba103a">b9caa131c3441a1046b97f65e40131ea</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:55:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

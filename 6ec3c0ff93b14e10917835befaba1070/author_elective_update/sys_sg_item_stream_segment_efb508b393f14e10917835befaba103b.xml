@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="DELETE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <max_offline_rows>500</max_offline_rows>
+        <name>Event Item Stream Segment</name>
+        <order>0</order>
+        <screen/>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>efb508b393f14e10917835befaba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Item Stream Segment</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_efb508b393f14e10917835befaba103b</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+    </sys_sg_item_stream_segment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_item_stream_segment_efb508b393f14e10917835befaba103b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment"><sys_sg_item_stream_segment action="INSERT_OR_UPDATE"><empty_state/><interleave_order_direction>asc</interleave_order_direction><max_offline_rows>500</max_offline_rows><name>Event Item Stream Segment</name><order>0</order><screen/><sys_class_name>sys_sg_item_stream_segment</sys_class_name><sys_created_by>chuck.tomasi</sys_created_by><sys_created_on>2024-05-02 20:19:52</sys_created_on><sys_id>efb508b393f14e10917835befaba103b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event Item Stream Segment</sys_name><sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package><sys_policy/><sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope><sys_update_name>sys_sg_item_stream_segment_efb508b393f14e10917835befaba103b</sys_update_name><sys_updated_by>chuck.tomasi</sys_updated_by><sys_updated_on>2024-05-02 20:19:52</sys_updated_on></sys_sg_item_stream_segment></record_update>]]></payload>
+        <payload_hash>2034228001</payload_hash>
+        <record_name>Event Item Stream Segment</record_name>
+        <reverted_from/>
+        <source>a3b5e939c3041a1046b97f65e4013127</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:51:55</sys_created_on>
+        <sys_id>b82a6dbdc3041a1046b97f65e40131c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c8832090000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:51:55</sys_updated_on>
+        <type>Screen segment</type>
+        <update_guid>742a6dbd80041a1070edcb6740d7f2c2</update_guid>
+        <update_guid_history>742a6dbd80041a1070edcb6740d7f2c2:0,76a5e1395f041a108832ec3175e7dc3d:0,eb65e1f5fb041a10b622555408e72027:1277101796,02552db513041a103898ee33bc35239e:0,e322076eb77f0a105b09446f8821aa88:0,6de1432ef87f0a10d7d5e0a64bcff971:-1499191284,f7c10bea6f7f0a10faaaf3576246bd03:0,63b508b3a8f14e104db3678479735f89:-1638257994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:52:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_stream_segment">sys_sg_item_stream_segment</sys_db_object>
+        <sys_id>0f427a7ec7124258815cd38642d1fe81</sys_id>
+        <sys_metadata>efb508b393f14e10917835befaba103b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Item Stream Segment</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_item_stream_segment_efb508b393f14e10917835befaba103b</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_stream_segment_efb508b393f14e10917835befaba103b">b82a6dbdc3041a1046b97f65e40131c2</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:52:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

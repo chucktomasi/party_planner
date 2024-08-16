@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="DELETE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Party Planner</name>
+        <required_roles>x_1109064_party.planner</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:51</sys_created_on>
+        <sys_id>97b5c0b393f14e10917835befaba10f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Party Planner</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_97b5c0b393f14e10917835befaba10f0</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:51</sys_updated_on>
+        <title>Party Planner</title>
+    </sys_sg_applet_launcher>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_applet_launcher_97b5c0b393f14e10917835befaba10f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Party Planner</name>
+        <required_roles>x_1109064_party.planner</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:51</sys_created_on>
+        <sys_id>97b5c0b393f14e10917835befaba10f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Party Planner</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_97b5c0b393f14e10917835befaba10f0</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:51</sys_updated_on>
+        <title>Party Planner</title>
+    </sys_sg_applet_launcher>
+</record_update>]]></payload>
+        <payload_hash>-1642533391</payload_hash>
+        <record_name>Party Planner</record_name>
+        <reverted_from/>
+        <source>949529f5c3041a1046b97f65e40131a6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:32:23</sys_created_on>
+        <sys_id>62a5a139c3041a1046b97f65e40131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c7650950000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:32:23</sys_updated_on>
+        <type>Launcher screen</type>
+        <update_guid>6ea5a139be041a109b7cbaba1dbe95ab</update_guid>
+        <update_guid_history>6ea5a139be041a109b7cbaba1dbe95ab:0,826561f5c4041a10189080302facf31c:1281308109,1322076ea97f0a105cebbec0cc1f7811:0,13d14feaf57f0a10a71466498520748d:-1860517204,c24aa2a26bfb0a10701c4f67c8c22fad:0,ebb508b347f14e10645467358a3faa7e:1881178733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:37:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher">sys_sg_applet_launcher</sys_db_object>
+        <sys_id>15d527bb9cf04d0cb316dc853b899bb1</sys_id>
+        <sys_metadata>97b5c0b393f14e10917835befaba10f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Party Planner</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_97b5c0b393f14e10917835befaba10f0</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_97b5c0b393f14e10917835befaba10f0">62a5a139c3041a1046b97f65e40131ac</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:37:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

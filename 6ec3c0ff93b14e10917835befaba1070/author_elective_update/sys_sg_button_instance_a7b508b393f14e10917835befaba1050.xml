@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="New Button (Event)">2bb508b393f14e10917835befaba1048</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>New</label>
+        <location>top</location>
+        <name>New (Event)</name>
+        <order/>
+        <parent>23b508b393f14e10917835befaba1039</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>a7b508b393f14e10917835befaba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (Event)</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a7b508b393f14e10917835befaba1050</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a7b508b393f14e10917835befaba1050"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_button_instance_a7b508b393f14e10917835befaba1050</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="New Button (Event)">2bb508b393f14e10917835befaba1048</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>New</label>
+        <location>top</location>
+        <name>New (Event)</name>
+        <order/>
+        <parent>23b508b393f14e10917835befaba1039</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>a7b508b393f14e10917835befaba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (Event)</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a7b508b393f14e10917835befaba1050</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7b508b393f14e10917835befaba1050"/>
+</record_update>]]></payload>
+        <payload_hash>1499968720</payload_hash>
+        <record_name>New (Event)</record_name>
+        <reverted_from/>
+        <source>949529f5c3041a1046b97f65e40131a6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:32:23</sys_created_on>
+        <sys_id>f6a5a139c3041a1046b97f65e40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c7651a10000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:32:23</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>b2a5a13999041a10a69414c0abad67cb</update_guid>
+        <update_guid_history>b2a5a13999041a10a69414c0abad67cb:0,8e552db58f041a10b13324952c5d7c97:-1682721205,1322076eb07f0a10cdcac45ae26c4226:0,77c1c7ea337f0a106982712fbde9b6f1:209328611,08c548b336f14e10b8ecd7ac29e83c18:1744347902</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:45:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>54f6ef3b2401451b8bd35ddb92523e99</sys_id>
+        <sys_metadata>a7b508b393f14e10917835befaba1050</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (Event)</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_a7b508b393f14e10917835befaba1050</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_a7b508b393f14e10917835befaba1050">f6a5a139c3041a1046b97f65e40131cb</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:45:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

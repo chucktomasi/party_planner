@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Edit Button (Event)">e7b508b393f14e10917835befaba1057</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (Event)</name>
+        <order/>
+        <parent>a7b508b393f14e10917835befaba103a</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>e3b508b393f14e10917835befaba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (Event)</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e3b508b393f14e10917835befaba105e</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e3b508b393f14e10917835befaba105e"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Party">6ec3c0ff93b14e10917835befaba1070</application>
+        <file_path/>
+        <instance_id>c82bba82db56fd504162684e139619dc</instance_id>
+        <instance_name>dev205644</instance_name>
+        <name>sys_sg_button_instance_e3b508b393f14e10917835befaba105e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (Event)">e7b508b393f14e10917835befaba1057</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (Event)</name>
+        <order/>
+        <parent>a7b508b393f14e10917835befaba103a</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-05-02 20:19:52</sys_created_on>
+        <sys_id>e3b508b393f14e10917835befaba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (Event)</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e3b508b393f14e10917835befaba105e</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:19:52</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3b508b393f14e10917835befaba105e"/>
+</record_update>]]></payload>
+        <payload_hash>-373262496</payload_hash>
+        <record_name>Edit (Event)</record_name>
+        <reverted_from/>
+        <source>949529f5c3041a1046b97f65e40131a6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:32:23</sys_created_on>
+        <sys_id>3ea5a139c3041a1046b97f65e40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915c7651c20000001</sys_recorded_at>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:32:23</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>3aa5a13974041a107cdf5297d50b8ecd</update_guid>
+        <update_guid_history>3aa5a13974041a107cdf5297d50b8ecd:0,566561f51e041a10ae1c4caa77e9d77d:-2057049705,1f22076ee27f0a10faca5728e30e7328:0,84e18fea6a7f0a1022e074284d692598:-2079731880,40c548b307f14e1077388dfbb61a231a:-1856268764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2024-08-16 18:45:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>856c7e98a4e24a68ac66b285daef2d10</sys_id>
+        <sys_metadata>e3b508b393f14e10917835befaba105e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (Event)</sys_name>
+        <sys_package display_value="Party" source="x_1109064_party">6ec3c0ff93b14e10917835befaba1070</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Party">6ec3c0ff93b14e10917835befaba1070</sys_scope>
+        <sys_scope_delete display_value="">50e422e65ada4c9aa680fa1788745344</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_e3b508b393f14e10917835befaba105e</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_e3b508b393f14e10917835befaba105e">3ea5a139c3041a1046b97f65e40131cd</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2024-08-16 18:45:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

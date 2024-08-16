@@ -3,7 +3,7 @@
         <description>Backup storage for the Party app data</description>
         <file_path>/party</file_path>
         <method>File on MID Server</method>
-        <mid_server display_value="chucktomasi">03e548451bbb4e506f74cb75604bcbba</mid_server>
+        <mid_server display_value="">03e548451bbb4e506f74cb75604bcbba</mid_server>
         <name>ChuckTomasi Party</name>
         <sys_class_name>sys_export_target</sys_class_name>
         <sys_created_by>chuck.tomasi@gmail.com</sys_created_by>
